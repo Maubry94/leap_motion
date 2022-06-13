@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#BOX_GAME_OVER {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-image: url("https://www.numerama.com/content/uploads/2019/10/naine-blanche-espace-planete-etude.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+h1, h3 {
+  color: #fff;
+  font-size: 100px;
+}
+
+h2 {
+  color: #fff;
+  margin-top: 500px;
+  margin-left: 600px;
+  font-size: 100px;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.presentation-control {
+  z-index: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.contour-control {
+  border: 1px solid silver;
+  border-radius: 8px;
+  padding: 40px;
+}
+
+.presentation-control p {
+  padding-top: 15px;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
